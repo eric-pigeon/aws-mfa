@@ -126,7 +126,6 @@ func (s *StsTokenCredentials) retrieveCredentialsFromFile() (*sts.Credentials, e
 	if err != nil {
 		return nil, err
 	}
-	fmt.Print(creds)
 
 	return &creds, nil
 }
