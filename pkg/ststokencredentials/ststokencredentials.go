@@ -21,7 +21,6 @@ import (
 
 const (
 	aws_dir = ".aws"
-	arn_file_name = "mfa_device"
 	credentials_file_name = "mfa_credentials"
 	ProviderName = "SessionTokenProvider"
 )
